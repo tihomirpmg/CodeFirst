@@ -1,13 +1,13 @@
-﻿using HospitalDatabase.Data;
+﻿using SalesDatabase.Data;
 using System;
 
-namespace HospitalDatabase
+namespace SalesDatabase
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var context = new HospitalContext();
+            var context = new SalesContext();
             context.Database.EnsureCreated();
         }
     }
